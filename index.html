@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="ad.size" content="width=300,height=600" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0"
+    />
+    <title>300x600 E-Commerce Logo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <div class="slider-container">
+        <div class="slider">
+          <div class="slide slide-1" data-slide="1">
+            <video
+              id="video-1"
+              muted
+              playsinline
+              loop
+              poster="./img/thumbnail_ninjago.png"
+            >
+              <source src="./videos/Lego_Ninjago.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="slide slide-2" data-slide="2">
+            <video
+              id="video-2"
+              muted
+              playsinline
+              loop
+              poster="./img/thumbnail_starwars.png"
+            >
+              <source src="./videos/LEGO_Star_Wars.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="slide slide-3" data-slide="3">
+            <video
+              id="video-3"
+              muted
+              playsinline
+              loop
+              poster="./img/thumbnail_city.png"
+            >
+              <source src="./videos/Lego_City.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="slide slide-4" data-slide="4">
+            <video
+              id="video-4"
+              muted
+              playsinline
+              loop
+              poster="./img/thumbnail_jurassic.png"
+            >
+              <source src="./videos/Lego_Jurassic_World.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+      <div class="pagination" id="pagination">
+        <div class="line-1 lines"></div>
+        <div class="line-2 lines"></div>
+        <div class="line-3 lines"></div>
+        <div class="line-4 lines"></div>
+      </div>
+      <div class="content-container">
+        <div class="slide1-content slides-content">
+          <div class="text1">LEGO&reg;</div>
+          <div class="text2">NINJAGO&reg;</div>
+          <div class="text3">Für kleine und große Ninja-Fans</div>
+        </div>
+        <div class="slide2-content slides-content">
+          <div class="text1">LEGO&reg;</div>
+          <div class="text2">Star Wars&trade;</div>
+          <div class="text3">Abenteuer aus fremden Welten</div>
+        </div>
+        <div class="slide3-content slides-content">
+          <div class="text1">LEGO&reg;</div>
+          <div class="text2">City</div>
+          <div class="text3">Spielspaß in der großen Stadt</div>
+        </div>
+        <div class="slide4-content slides-content">
+          <div class="text1">LEGO&reg;</div>
+          <div class="text2">Jurassic World</div>
+          <div class="text3">Für alle Fans von Jurassic Park</div>
+        </div>
+      </div>
+      <div class="logo">
+        <a href="javascript:window.open(window.clickTag);void(0)">
+          <img src="./img/Lego-logo.png" />
+        </a>
+      </div>
+      <div class="cta-button">
+        <a href="javascript:window.open(window.clickTag);void(0)">
+          Jetzt entdecken <img src="./img/arrow.svg" />
+        </a>
+      </div>
+      <a id="banner-click" class="banner-click" target="_blank"></a>
+      <div class="pad" id="btn-left-click">
+        <button id="prev">❮</button>
+      </div>
+      <div class="pad" id="btn-right-click">
+        <button id="next">❯</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="text/javascript">
+      var clickTag = "https://www.google.com";
+    </script>
+  </body>
+</html>
